@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size: larger;
+    background-color: gold;
+    padding: 2rem;
+    padding-bottom: 7rem;
+}
+
+.navlogo {
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    float: right;
+}
+a {
+    color: green;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+section.home{
+    
+    background-image: url("images/sbanner.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
